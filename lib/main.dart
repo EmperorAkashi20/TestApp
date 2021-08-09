@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:testapp/Screen1.dart';
-import 'package:testapp/routes.dart';
 
 GlobalKey globalKey = GlobalKey();
 GlobalKey globalKey1 = GlobalKey();
@@ -20,7 +19,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(fontFamily: "Nunito"),
       debugShowCheckedModeBanner: false,
       home: Screen1(),
-      routes: routes,
     );
   }
 }
